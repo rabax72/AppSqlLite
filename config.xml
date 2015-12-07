@@ -1,6 +1,6 @@
 <widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.phonegap.sqlitetest" version="1.0.0">
   <name>SqliteTest</name>
-  <description>Hello World sample application that responds to the deviceready event.</description>
+  <description>Prova di connessione a DB Sqlite.</description>
   <author href="http://phonegap.com" email="support@phonegap.com">PhoneGap Team</author>
   <content src="index.html"/>
   <preference name="permissions" value="none"/>
@@ -63,6 +63,7 @@
   <gap:splash src="www/res/screen/windows-phone/screen-portrait.jpg" gap:platform="winphone"/>
   <access origin="*"/>
   <plugin name="cordova-plugin-whitelist" version="1"/>
+  <plugin name="io.litehelpers.cordova.sqlite" spec="0.7.6" source="pgb" />
   <allow-intent href="http://*/*"/>
   <allow-intent href="https://*/*"/>
   <allow-intent href="tel:*"/>
